@@ -15,3 +15,16 @@
 /log/*
 !/log/.keep
 /tmp
+
+.idea/.generators
+.idea/.rakeTasks
+.idea/MMGInterviewTask.iml
+.idea/codeStyleSettings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations/Development__MMGInterviewTask.xml
+.idea/runConfigurations/Production__MMGInterviewTask.xml
+.idea/runConfigurations/spec__MMGInterviewTask.xml
+.idea/runConfigurations/test__MMGInterviewTask.xml
+.idea/vcs.xml
+.idea/workspace.xml
