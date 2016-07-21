@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@import "jquery.datetimepicker";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -55,7 +56,7 @@ body {
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #5fd3ff;
+  color: #b5b5b5;
 }
 
 
