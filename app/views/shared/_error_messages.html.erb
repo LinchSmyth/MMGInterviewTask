@@ -1,0 +1,9 @@
+<% if @feedback.errors.any? %>
+    <div id="error_explanation">
+      <div class="alert alert-danger">
+        <% @feedback.errors.full_messages.each do |msg| %>
+            <span class="glyphicon glyphicon-remove"></span> <%= msg %><br/>
+        <% end %>
+      </div>
+    </div>
+<% end %>
