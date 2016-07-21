@@ -1,13 +1,18 @@
 class PagesController < ApplicationController
   def home
+    @feedback = Feedback.new
   end
 
   def about
   end
 
   def create
-    Feedback.create(params[:person])
-    raise "Foo"
+    @feedback = Feedback.new(feedback_params)
+    if @feedback.save
+      raise "Foo"
+    else
+      render 'home'
+    end
   end
 
   private
