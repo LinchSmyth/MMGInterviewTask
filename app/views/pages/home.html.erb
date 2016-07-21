@@ -4,18 +4,17 @@
   <hr />
   <div class="row">
       <%= form_for :feedback do |feedback| %>
-        <p>
+        <div class=	"col-lg-5 col-md-5 col-sm-5 col-xs-5">
           <%= feedback.label :name %><br />
-          <%= feedback.text_field :name, placeholder: "Type here your name" %>
-        </p>
-        <p>
+          <%= feedback.text_field :name, class: 'form-control', placeholder: "Type here your name" %>
+          <br />
           <%= feedback.label :email %><br />
-          <%= feedback.text_field :email, placeholder: "Your e-mail" %>
-        </p>
-        <p>
+          <%= feedback.text_field :email, class: 'form-control', placeholder: "Your e-mail" %>
+        </div>
+        <div class=	"col-lg-7 col-md-7 col-sm-7 col-xs-7">
           <%= feedback.label :message %><br/>
-          <%= feedback.text_area :message, placeholder: "Leave here your message"%>
-        </p>
+          <%= feedback.text_area :message, class: 'form-control', rows: 5, placeholder: "Leave here your message..."%>
+        </div>
       <% end %>
   </div>
 </div>
