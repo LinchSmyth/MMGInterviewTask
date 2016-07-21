@@ -9,7 +9,8 @@ class PagesController < ApplicationController
   def create
     @feedback = Feedback.new(feedback_params)
     if @feedback.save
-      raise "Foo"
+      @datetime = feedback_params[:datetime]
+      render 'thanks'
     else
       render 'home'
     end
@@ -21,3 +22,7 @@ class PagesController < ApplicationController
     params.require(:feedback).permit(:name, :email, :age, :datetime, :message)
   end
 end
+
+#TODO: client-side validation
+#TODO: attachment downloading
+#TODO: DateTimePicker
