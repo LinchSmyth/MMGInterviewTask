@@ -20,4 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello world!"
+  helpers:
+    label:
+      feedback:
+        datetime: "Select date and time"
+        age: "Age (from 17 to 65)"
+        name: "Name (first-name and last-name with a capital letter)"
+        message: "Message (not requied)"
