@@ -30,7 +30,10 @@
         </div>
         <div class=	"col-lg-7 col-md-7 col-sm-7 col-xs-7">
           <%= feedback.label :message %><br/>
-          <%= feedback.text_area :message, class: 'form-control', rows: 13, placeholder: "Leave here your message..."%>
+          <%= feedback.text_area :message, class: 'form-control', rows: 9, placeholder: "Leave here your message..."%>
+          <br />
+          <%= feedback.label :attachment %><br />
+          <%= feedback.file_field :attachment, as: :file %>
         </div>
       <% end %>
     </div>
