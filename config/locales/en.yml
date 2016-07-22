@@ -27,4 +27,5 @@ en:
         datetime: "Select date and time"
         age: "Age (from 17 to 65)"
         name: "Name (first-name and last-name with a capital letter)"
-        message: "Message (not requied)"
+        message: "Message (not required)"
+        attachment: "Attachment (.png, .jpg, .gif, .pdf, .doc-x file extension supported)"
