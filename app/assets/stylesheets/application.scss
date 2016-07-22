@@ -17,9 +17,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// drop text down a little bit, because it was under header
+
 body {
   padding-top: 50px;
 }
+
+// customize header
 
 .navbar-custom {
   background-color: #2529e5;
@@ -57,18 +61,4 @@ body {
 
 .navbar-default .navbar-brand:hover {
   color: #b5b5b5;
-}
-
-
-* {
-  padding: 0;
-  margin: 0;
-}
-.fit { /* set relative picture size */
-  max-width: 100%;
-  max-height: 100%;
-}
-.center {
-  display: block;
-  margin: auto;
 }
