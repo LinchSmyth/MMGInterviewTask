@@ -62,3 +62,9 @@ body {
 .navbar-default .navbar-brand:hover {
   color: #b5b5b5;
 }
+
+// Add distance 'cause after showing error message submit button lands too low
+
+.distance-before-footer {
+  padding-bottom: 70px;
+}
