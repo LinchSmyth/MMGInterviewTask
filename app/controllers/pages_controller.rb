@@ -19,7 +19,7 @@ class PagesController < ApplicationController
   private
 
   def feedback_params
-    params.require(:feedback).permit(:name, :email, :age, :datetime, :message)
+    params.require(:feedback).permit(:name, :email, :age, :datetime, :message, :attachment)
   end
 end
 
