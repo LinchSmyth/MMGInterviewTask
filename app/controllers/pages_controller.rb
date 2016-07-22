@@ -24,4 +24,3 @@ class PagesController < ApplicationController
 end
 
 #TODO: client-side validation
-#TODO: attachment downloading (processing)
