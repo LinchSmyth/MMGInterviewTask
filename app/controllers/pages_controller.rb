@@ -24,5 +24,4 @@ class PagesController < ApplicationController
 end
 
 #TODO: client-side validation
-#TODO: attachment downloading
-#TODO: DateTimePicker
+#TODO: attachment downloading (processing)
