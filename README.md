@@ -1,7 +1,7 @@
 
 # This is my interview task for MassMedia Group.
 
-If you want to read full text of the task click [here] (https://docs.google.com/document/d/1m9IYtb4fLtz-ovwIVIO5Dvz8TmCRGLhHTktdQkF-KoM/edit?usp=sharing)
+If you want to read full text of the task click [here](https://docs.google.com/document/d/1m9IYtb4fLtz-ovwIVIO5Dvz8TmCRGLhHTktdQkF-KoM/edit?usp=sharing)
 
 This app was created using Ruby v2.3.0 and Rails 4.2.6
 
